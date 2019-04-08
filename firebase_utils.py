@@ -3,10 +3,10 @@ from firebase_admin import credentials
 from firebase_admin import db
 from random import randint
 # Fetch the service account key JSON file contents
-cred = credentials.Certificate('C://Users/halda/OneDrive/Desktop/April/april-1546223003954-firebase-adminsdk-w4per-0ee9a80d84.json')
+cred = credentials.Certificate('C://XXXX/april-XXXXXXXXXXXXX-firebase-adminsdk-XXXXX-XXXXXXXXXX.json')
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    'databaseURL': 'https://april-1546223003954.firebaseio.com/'
+    'databaseURL': 'https://april-XXXXXXXXXXXXX.firebaseio.com/'
 })
 def voice_authentication():   
     print("Waiting for Voice Authentication...")
